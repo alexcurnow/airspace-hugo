@@ -1,33 +1,32 @@
 ############################### Banner ##############################
 banner:
   enable : true
-  bg_image : "images/slider-bg.jpg"
+  bg_image : "images/banner.jpg"
   bg_overlay : true
-  title : "Smart Electronic Solutions <br/> for your Home or Business"
-  content : "We love the Web and the work we do.We work closely with our clients to deliver  the best possible solutions for their needs"
+  title : "Smart Electrical Solutions <br/> for your Home or Business"
+  content : "We love the work that we do, and we work closely with our clients to deliver the best possible solutions for their needs."
   button:
     enable : true
-    label : "Discover Our Project"
+    label : "Tell us what you need"
     link : "project"
 
 ############################# About #################################
 about:
   enable : true
   title : "About Us"
-  description : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id."
-  image : "images/wrapper-img.png"
+  description : "Licensed in state of New Jersey #01836600 <br />
+                  Over 14 years of electrical experience <br />
+                  Certified Generac service and install"
+  content : "McIntyre Electric has vast experience in all kinds of electrical applications. Located in Galloway NJ McIntyre Electric is an owner operated electrical company that provides service to the south jersey and surrounding areas. Specializing in residential and commercial electrical service work, we perform repairs, maintenance, modifications and additions to the electrical systems of existing buildings. 
+Our commitment is to you, our customer. We are dedicated to providing quality work you can depend on. Headed by a master electrician with over 15years experience, we specialize in handling the needs of existing homes including remodels, upgrading electrical systems, adding lighting, service work, and more.
+ The following lists of services will give you an idea of what we can provide. But if what you're looking for does not appear here, contact us and ask we are confident when we say we do it all!"
+  image : "images/wrapper-img.jpg"
 
 
 ######################### Portfolio ###############################
 portfolio:
   enable : true
-  bg_image : "images/featue-bg.jpg"
+  bg_image : "images/lightbulb.jpg"
   title : "WE BELIEVE IN GREAT IDEAS"
   content : "
   Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
