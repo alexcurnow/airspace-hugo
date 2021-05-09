@@ -12,7 +12,7 @@ banner:
 
 ############################# About #################################
 about:
-  enable : true
+  enable : false
   title : "About Us"
   description : "Licensed in state of New Jersey #01836600 <br />
                   Over 14 years of electrical experience <br />
@@ -27,18 +27,15 @@ Our commitment is to you, our customer. We are dedicated to providing quality wo
 portfolio:
   enable : true
   bg_image : "images/lightbulb.jpg"
-  title : "WE BELIEVE IN GREAT IDEAS"
-  content : "
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-  "
+  title : "About Us"
+  description: "Licensed in state of New Jersey #01836600 <br />
+                  Over 14 years of electrical experience <br />
+                  Certified Generac service and install"
+  content : "McIntyre Electric has vast experience in all kinds of electrical applications. Located in Galloway, NJ McIntyre Electric is an owner operated electrical company that provides service to South Jersey and its surrounding areas. Specializing in residential and commercial electrical service work, we perform repairs, maintenance, modifications and additions to the electrical systems of existing buildings. 
+Our commitment is to you, our customer. We are dedicated to providing quality work you can depend on. Headed by a master electrician with over 15 years experience, we specialize in handling the needs of existing homes including remodels, upgrading electrical systems, adding lighting, service work, and more.
+The following lists of services will give you an idea of what we can provide. But if what you're looking for does not appear here, contact us and ask we are confident when we say we do it all!"
   button:
-    enable : true
+    enable : false
     label : "View Works"
     link : "project"
 
@@ -51,7 +48,7 @@ service:
 
 ############################ call to action ###########################
 cta:
-  enable : true
+  enable : false
   bg_image : "images/call-to-action-bg.jpg"
   title : "We design delightful digital experiences."
   content : "Read more about what we do and our philosophy of design. Judge for yourself The work and results <br> we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
@@ -62,7 +59,7 @@ cta:
 
 ############################# Funfacts ###############################
 funfacts:
-  enable : true
+  enable : false
   title : "Fun Facts About Us"
   description : "'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the
           blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics'"
