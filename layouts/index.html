@@ -1,33 +1,34 @@
-{{ define "main" }}
-
-{{ $data := index site.Data site.Language.Lang }}
+{{ define "main" }} {{ $data := index site.Data site.Language.Lang }}
 
 <!-- banner -->
-{{ if $data.homepage.banner.enable }}
-{{ with $data.homepage.banner }}
-<section class="slider {{if .bg_overlay}}overly{{end}}" style="background-image: url('{{ .bg_image | absURL }}');">
+{{ if $data.homepage.banner.enable }} {{ with $data.homepage.banner }}
+<section
+  class="slider {{if .bg_overlay}}overly{{end}}"
+  style="background-image: url('{{ .bg_image | absURL }}');"
+>
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="block">
           <h1>{{ .title | markdownify }}</h1>
           <p>{{ .content | markdownify }}</p>
-          {{ if .button.enable }}
-          {{ with .button }}
-          <a href="{{ .link | relLangURL }}" target="_blank" class="btn btn-main animated fadeInUp">{{ .label }}</a>
-          {{ end }}
-          {{ end }}
+          {{ if .button.enable }} {{ with .button }}
+          <a
+            href="{{ .link | relLangURL }}"
+            target="_blank"
+            class="btn btn-main animated fadeInUp"
+            >{{ .label }}</a
+          >
+          {{ end }} {{ end }}
         </div>
       </div>
     </div>
   </div>
 </section>
-{{ end }}
-{{ end }}
+{{ end }} {{ end }}
 <!-- /banner -->
 
-{{ if $data.homepage.about.enable }}
-{{ with $data.homepage.about }}
+{{ if $data.homepage.about.enable }} {{ with $data.homepage.about }}
 <!-- about -->
 <section class="about section">
   <div class="container">
@@ -43,52 +44,45 @@
       </div>
       <div class="col-md-5 col-sm-12">
         <div class="block">
-          <img src="{{ .image | relURL }}" class="img-responsive" alt="Img">
+          <img src="{{ .image | relURL }}" class="img-responsive" alt="Img" />
         </div>
       </div>
     </div>
   </div>
 </section>
 <!-- /about -->
-{{ end }}
-{{ end }}
-
-{{ if $data.homepage.portfolio.enable }}
-{{ with $data.homepage.portfolio }}
+{{ end }} {{ end }} {{ if $data.homepage.portfolio.enable }} {{ with
+$data.homepage.portfolio }}
 <!-- portfolio -->
-<section class="feature bg-2" style="background-image: url('{{ .bg_image | absURL}}')">
+<section
+  class="feature bg-2"
+  style="background-image: url('{{ .bg_image | absURL}}')"
+>
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-md-offset-6">
         <h2 class="section-subtitle">{{ .title | markdownify }}</h2>
-        {{ .content | markdownify }}
-        {{ if .button.enable }}
-        {{ with .button }}
-        <a href="{{ .link | relLangURL }}" class="btn btn-view-works">{{ .label }}</a>
-        {{ end }}
-        {{ end }}
+        {{ .content | markdownify }} {{ if .button.enable }} {{ with .button }}
+        <a href="{{ .link | relLangURL }}" class="btn btn-view-works"
+          >{{ .label }}</a
+        >
+        {{ end }} {{ end }}
       </div>
     </div>
   </div>
 </section>
 <!-- /portfolio -->
-{{ end }}
-{{ end }}
+{{ end }} {{ end }}
 
 <!-- Service -->
-{{ if $data.homepage.service.enable }}
-{{ partial "service.html" . }}
-{{ end }}
+{{ if $data.homepage.service.enable }} {{ partial "service.html" . }} {{ end }}
 <!-- /service -->
 
 <!-- Call to action -->
-{{ if $data.homepage.cta.enable }}
-{{ partial "cta.html" . }}
-{{ end }}
+{{ if $data.homepage.cta.enable }} {{ partial "cta.html" . }} {{ end }}
 <!-- /Call to action -->
 
-{{ if $data.homepage.funfacts.enable }}
-{{ with $data.homepage.funfacts }}
+{{ if $data.homepage.funfacts.enable }} {{ with $data.homepage.funfacts }}
 <!-- Content Start -->
 <section class="testimonial">
   <div class="container">
@@ -120,8 +114,11 @@
               <i class="ion-quote"></i>
               <p>"{{ .content | markdownify }}"</p>
               <div class="user">
-                <img src="{{ .image | relURL }}" alt="client">
-                <p><span>{{ .name | markdownify }}</span> {{ .designation | markdownify }}</p>
+                <img src="{{ .image | relURL }}" alt="client" />
+                <p>
+                  <span>{{ .name | markdownify }}</span> {{ .designation |
+                  markdownify }}
+                </p>
               </div>
             </div>
             {{ end }}
@@ -131,7 +128,4 @@
     </div>
   </div>
 </section>
-{{ end}}
-{{ end}}
-
-{{ end }}
+{{ end}} {{ end}} {{ end }}

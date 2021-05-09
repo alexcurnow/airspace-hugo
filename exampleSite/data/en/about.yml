@@ -3,13 +3,9 @@ about:
   enable : true
   image : "images/company/about.jpg"
   title : "We strive to be the best and <br> make awesome work."
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius enim, accusantium repellat ex autem numquam
-          iure officiis facere vitae itaque.
-          
-          
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam qui vel cupiditate exercitationem, ea fuga est
-          velit nulla culpa modi quis iste tempora non, suscipit repellendus labore voluptatem dicta amet? Lorem ipsum
-          dolor sit amet, consectetur adipisicing elit. Provident, neque!"
+  content : "McIntyre Electric has vast experience in all kinds of electrical applications. Located in Galloway NJ McIntyre Electric is an owner operated electrical company that provides service to the south jersey and surrounding areas. Specializing in residential and commercial electrical service work, we perform repairs, maintenance, modifications and additions to the electrical systems of existing buildings. 
+Our commitment is to you, our customer. We are dedicated to providing quality work you can depend on. Headed by a master electrician with over 15years experience, we specialize in handling the needs of existing homes including remodels, upgrading electrical systems, adding lighting, service work, and more.
+ The following lists of services will give you an idea of what we can provide. But if what you're looking for does not appear here, contact us and ask we are confident when we say we do it all!"
 
   button:
     enable : true
